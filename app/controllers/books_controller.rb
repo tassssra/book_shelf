@@ -45,7 +45,8 @@ class BooksController < ApplicationController
                           :price,
                           :publish_date,
                           :description,
-                          :new_image
+                          :new_image,
+                          :category_id
                           )
   end
 
