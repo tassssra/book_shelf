@@ -3,6 +3,5 @@ Rails.application.routes.draw do
   resources :books do
     resources :reviews, except: :index
   end
-  end
   root "books#index"
 end
